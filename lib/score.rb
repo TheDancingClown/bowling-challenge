@@ -43,7 +43,6 @@ class Score
     def reset
       @total = 0
     end
-  
 
     def include_strike_bonus
       @frame_score << (Bonus.strikes[@strike_count]+Bonus.strikes[@strike_count+1]+10)
